@@ -8,13 +8,13 @@ DROP TABLE IF EXISTS skills_dim;
 
 
 CREATE TABLE company_dim (
-    company_id  INTEGER     PRIMARY KEY,
+    company_id  INTEGER PRIMARY KEY,
     name        VARCHAR
 );
 
 CREATE TABLE skills_dim (
     skill_id    INTEGER     PRIMARY KEY,
-    skill       VARCHAR,
+    skills      VARCHAR,
     type        VARCHAR
 );
 
