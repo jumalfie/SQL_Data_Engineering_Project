@@ -1,6 +1,6 @@
 -- Step 3: Mart - Create flat mart table
 
-DROP SCHEMA flat_mart CASCADE;
+DROP SCHEMA IF EXISTS flat_mart CASCADE;
 
 CREATE SCHEMA flat_mart;
 
